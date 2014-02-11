@@ -1,3 +1,5 @@
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
 let Tlist_Ctags_Cmd = '/usr/bin/ctags'
 set guifont=Monospace\ 10
 runtime download/matchit.vim
