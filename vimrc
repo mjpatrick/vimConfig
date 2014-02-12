@@ -105,3 +105,5 @@ function TagTitle()
 		set titlestring=%<%f\ %([%{Tlist_Get_Tagname_By_Line()}]%)
 	endif
 endfunction
+
+let g:syntastic_cpp_compiler_options = ' -std=c++11'
