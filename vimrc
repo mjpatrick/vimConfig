@@ -1,13 +1,11 @@
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 let Tlist_Ctags_Cmd = '/usr/bin/ctags'
-set guifont=Monospace\ 10
 runtime download/matchit.vim
 let g:miniBufExplMapWindowNavVim = 1
 let g:miniBufExplMapWindowNavArrows = 1
 let g:miniBufExplMapCTabSwitchBuffs = 1
 let g:miniBufExplModSelTarget = 1 
-syntax enable
 colorscheme molokai
 set cindent shiftwidth=2
 set tabstop=2
@@ -17,21 +15,15 @@ set vb t_vb=
 set number
 set hlsearch
 set incsearch
-filetype indent on
 set nocp
 au BufNewFile,BufRead *.cpp set syntax=cpp11
-filetype plugin on
- let g:pydiction_location = '/home/mpatrick/.vim/pydiction-1.2/complete-dict'
 "XXX set tags+=/home/s2kmulti/works/tags/tags_s2k
 "XXX set tags+=/home/s2kmulti/works/tags/tags_s2kadd
 "XXX set tags+=/home/s2kmulti/works/tags/tags_qt4
 "XXX set tags+=/home/s2kmulti/works/tags/tags_aceTAO
 "XXX set tags+=/home/s2kmulti/works/tags/tags_stdCpp
-set tags=/home/mpatrick/workspace/223_EMBEDDED/os/kernel/linux-2.6.21.1-leon23-1.0.6/tags
+"set tags=/home/mpatrick/workspace/223_EMBEDDED/os/kernel/linux-2.6.21.1-leon23-1.0.6/tags
 "XXX map <C-F12> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
-vmap co :call EnhancedCommentify('','guess')<CR>
-vmap cc :call EnhancedCommentify('','comment')<CR>
-vmap cd :call EnhancedCommentify('','decomment')<CR>
 
 function! CHANGE_CURR_DIR()
 	let _dir = expand("%:p:h")
@@ -44,40 +36,9 @@ endfunction
 
 autocmd BufEnter * call CHANGE_CURR_DIR()
 
-autocmd BufNewFile,Bufread *.dat call CSVSELECT()
-map <F9> :call CSV_HighlightPrevCol()<CR>
-map <F10> :call CSV_HighlightNextCol()<CR>
-map <F11> :call CSV_goto_field()<CR>
-map <F12> :call CSV_SE()<CR>
-"XXX set tags=/home/mpatrick/tagsEDENscosPI,/home/mpatrick/tagsS2k-31,/home/mpatrick/tagsEGSEBB
-
 set nocompatible                " want vim, not vi; must be first, because it changes other options
 
-if &t_Co > 2 || has("gui_running")      " syntax highlighting when the terminal has colors or there is a gui
-	syntax on
-endif
-
 let &statusline="%f%< %y[%{&fileencoding}/%{&encoding}/%{&termencoding}][%{&fileformat}](%n)%m%r%w %a%=%b 0x%B  L:%l/%L, C:%-7(%c%V%) %P"
-
-map <F5> :w<CR>:make<CR>
-map <F6> :make run<CR> 
-map <F7> :make clean<CR>
-map <F8> :make debug<CR>
-map <F9> :cprev<CR>
-map <F10> :cnext<CR>
-map <F11> :clist<CR>
-
-if has("autocmd")
-	filetype plugin indent on
-	"XXX filetype dependent settings
-	au Filetype vhdl call FT_vhdl()
-	"XXX filetype dependent templates
-	au BufNewFile *.{vhd,py,tex,asm,sh,c,java,html} call Template_Load(expand("%"))
-	"XXX replace $template:date$ and $template:filename$
-	au BufNewFile *.{vhd,py,tex,asm,html} call Template_Replace_Special()
-else
-	set autoindent
-endif 
 
 function FT_vhdl()
 	setlocal tabstop=4
@@ -135,33 +96,6 @@ function Template_Load(filename)
 	if a:filename =~ "\.vhd$"
 		0r ~/.templates/vhdl
 	endif
-endfunction
-
-"XXX replacement for $template:xy$ in templates
-function Template_Replace_Special()
-	if exists("*strftime")
-		try
-			exe "%s+\\\$template:date\\\$+".strftime("%d.%m.%Y")
-		catch
-		endtry
-		try
-			exe "%s+\\\$template:year\\\$+".strftime("%Y")
-		catch
-		endtry
-	endif
-	try
-		exe "%s/\\\$template:filename\\\$/".expand("%:t")
-	catch
-	endtry
-	try
-		exe "%s/\\\$template:classname\\\$/".toupper(strtrans(expand("%:t:r")))
-	catch
-	endtry
-	try
-		exe "%s/\\\$template:instancename\\\$/".strtrans(expand("%:t:r"))
-	catch
-	endtry
-	1
 endfunction
 
 au BufEnter *.{c,cpp,cc,h,hpp,py,tex,vhd} call TagTitle()

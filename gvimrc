@@ -6,7 +6,6 @@ let g:miniBufExplMapWindowNavVim = 1
 let g:miniBufExplMapWindowNavArrows = 1
 let g:miniBufExplMapCTabSwitchBuffs = 1
 let g:miniBufExplModSelTarget = 1 
-filetype plugin on
 if has("cscope")
 	set csprg=/usr/bin/cscope
 	set csto=0
@@ -45,10 +44,4 @@ if has("gui_running")
 	endif
 endif 
 
-autocmd BufNewFile,Bufread *.dat call CSVSELECT()
-map <F9> :call CSV_HighlightPrevCol()<CR>
-map <F10> :call CSV_HighlightNextCol()<CR>
-map <F11> :call CSV_goto_field()<CR>
-map <F12> :call CSV_SE()<CR>
 "XXX set tags=/home/mpatrick/tagsEDENscosPI,/home/mpatrick/tagsS2k-31,/home/mpatrick/tagsEGSEBB
-set tags=/home/mpatrick/workspace/223_EMBEDDED/os/kernel/linux-2.6.21.1-leon23-1.0.6/tags
