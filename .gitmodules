@@ -43,3 +43,6 @@
 [submodule "bundle/abolish"]
 	path = bundle/abolish
 	url = http://github.com/tpope/vim-abolish
+[submodule "bundle/gundo"]
+	path = bundle/gundo
+	url = https://github.com/vim-scripts/Gundo.git
