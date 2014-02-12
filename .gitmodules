@@ -34,3 +34,6 @@
 [submodule "bundle/vim-sensible"]
 	path = bundle/vim-sensible
 	url = https://github.com/tpope/vim-sensible
+[submodule "bundle/tcomment_vim"]
+	path = bundle/tcomment_vim
+	url = http://github.com/tomtom/tcomment_vim
