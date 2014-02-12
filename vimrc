@@ -8,7 +8,7 @@ let g:miniBufExplMapWindowNavArrows = 1
 let g:miniBufExplMapCTabSwitchBuffs = 1
 let g:miniBufExplModSelTarget = 1 
 syntax enable
-colorscheme desert
+colorscheme molokai
 set cindent shiftwidth=2
 set tabstop=2
 set expandtab
