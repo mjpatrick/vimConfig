@@ -57,3 +57,9 @@
 [submodule "bundle/repeat"]
 	path = bundle/repeat
 	url = http://github.com/tpope/vim-repeat
+[submodule "bundle/STL-Syntax"]
+	path = bundle/STL-Syntax
+	url = https://github.com/Mizuchi/STL-Syntax
+[submodule "bundle/Cpp11-Syntax-Support"]
+	path = bundle/Cpp11-Syntax-Support
+	url = http://github.com/vim-scripts/Cpp11-Syntax-Support
