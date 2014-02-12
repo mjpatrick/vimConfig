@@ -13,6 +13,7 @@
 [submodule "bundle/taglist"]
 	path = bundle/taglist
 	url = https://github.com/vim-scripts/taglist.vim.git
+  ignore = dirty
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree
@@ -25,9 +26,11 @@
 [submodule "bundle/detectindent"]
 	path = bundle/detectindent
 	url = http://github.com/ciaranm/detectindent
+  ignore = dirty
 [submodule "bundle/ack"]
 	path = bundle/ack
 	url = https://github.com/vim-scripts/ack.vim.git
+  ignore = dirty
 [submodule "bundle/fugitive"]
 	path = bundle/fugitive
 	url = http://github.com/tpope/vim-fugitive
@@ -40,9 +43,11 @@
 [submodule "bundle/matchit"]
 	path = bundle/matchit
 	url = https://github.com/vim-scripts/matchit.zip.git
+  ignore = dirty
 [submodule "bundle/abolish"]
 	path = bundle/abolish
 	url = http://github.com/tpope/vim-abolish
 [submodule "bundle/gundo"]
 	path = bundle/gundo
 	url = https://github.com/vim-scripts/Gundo.git
+  ignore = dirty
