@@ -17,11 +17,6 @@ set hlsearch
 set incsearch
 set nocp
 au BufNewFile,BufRead *.cpp set syntax=cpp11
-"XXX set tags+=/home/s2kmulti/works/tags/tags_s2k
-"XXX set tags+=/home/s2kmulti/works/tags/tags_s2kadd
-"XXX set tags+=/home/s2kmulti/works/tags/tags_qt4
-"XXX set tags+=/home/s2kmulti/works/tags/tags_aceTAO
-"XXX set tags+=/home/s2kmulti/works/tags/tags_stdCpp
 "set tags=/home/mpatrick/workspace/223_EMBEDDED/os/kernel/linux-2.6.21.1-leon23-1.0.6/tags
 "XXX map <C-F12> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 
