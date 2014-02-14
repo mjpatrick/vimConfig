@@ -23,3 +23,6 @@ Push to remote/gitHub:
 
 Stage locally deleted files:
   git add -u
+
+To pull another submodule from remote:
+  git submodule update --init
