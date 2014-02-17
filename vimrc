@@ -6,7 +6,7 @@ let g:miniBufExplMapWindowNavVim = 1
 let g:miniBufExplMapWindowNavArrows = 1
 let g:miniBufExplMapCTabSwitchBuffs = 1
 let g:miniBufExplModSelTarget = 1 
-colorscheme molokai
+colorscheme molokai_mjp
 set cindent shiftwidth=2
 set tabstop=2
 set expandtab

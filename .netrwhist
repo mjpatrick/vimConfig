@@ -1,3 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =3
 let g:netrw_dirhist_1='/home/mpatrick/.ssh'
+let g:netrw_dirhist_2='/home/mpatrick/workspace/223_EMBEDDED/os/kernel/linux-2.6.21.1-leon23-1.0.6/drivers/rovsing'
+let g:netrw_dirhist_3='/home/mpatrick/.vim'

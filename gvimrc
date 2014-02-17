@@ -21,7 +21,7 @@ if has("cscope")
 	set csverb
 endif
 syntax enable
-colorscheme molokai
+colorscheme molokai_mjp
 set cindent shiftwidth=2
 set tabstop=2
 set expandtab
