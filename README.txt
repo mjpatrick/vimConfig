@@ -12,6 +12,10 @@ ln -s ~/.vim/gvimrc ~/.gvimrc
 cd ~/.vim
 git submodule update --init
 
+or
+
+git clone --recursive http://github.com/mjpatrick/vimConfig.git ~/.vim
+
 ---------------------------------------------------------------------
 
 Update submodule:
