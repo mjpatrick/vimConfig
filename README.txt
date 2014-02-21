@@ -55,3 +55,6 @@ To find when a line is added
 
 Given a git patch id, find out which release contains it
   git describe --contains f3a1ef9cee4812e2d08c855eb373f0d83433e34c
+
+Check which tag am I on:
+  git describe --tags
