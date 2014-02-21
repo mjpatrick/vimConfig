@@ -58,3 +58,6 @@ Given a git patch id, find out which release contains it
 
 Check which tag am I on:
   git describe --tags
+
+Get the git remote address from local repository
+  git config --get remote.origin.url
