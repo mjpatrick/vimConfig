@@ -61,3 +61,9 @@ Check which tag am I on:
 
 Get the git remote address from local repository
   git config --get remote.origin.url
+
+Clean untracked files and folders
+ git clean -f -d
+
+ to dry-run
+ git clean -f -d -n or --dry-run
