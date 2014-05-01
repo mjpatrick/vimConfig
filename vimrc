@@ -19,6 +19,9 @@ set nocp
 au BufNewFile,BufRead *.cpp set syntax=cpp11
 "set tags=/home/mpatrick/workspace/223_EMBEDDED/os/kernel/linux-2.6.21.1-leon23-1.0.6/tags
 "XXX map <C-F12> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
+"
+"Set clang library path
+let g:clang_library_path='/usr/lib64'
 
 function! CHANGE_CURR_DIR()
 	let _dir = expand("%:p:h")
