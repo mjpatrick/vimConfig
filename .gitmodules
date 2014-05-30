@@ -72,3 +72,6 @@
 [submodule "bundle/dispatch"]
 	path = bundle/dispatch
 	url = git://github.com/tpope/vim-dispatch.git
+[submodule "cscope.vim"]
+	path = cscope.vim
+	url = https://github.com/vim-scripts/cscope.vim.git
