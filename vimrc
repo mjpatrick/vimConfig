@@ -1,6 +1,7 @@
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 let Tlist_Ctags_Cmd = '/usr/bin/ctags'
+let Tlist_Auto_Open = 1
 runtime download/matchit.vim
 let g:miniBufExplMapWindowNavVim = 1
 let g:miniBufExplMapWindowNavArrows = 1
