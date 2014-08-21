@@ -1,4 +1,5 @@
 let Tlist_Ctags_Cmd = '/usr/bin/ctags'
+syntax enable
 au BufNewFile,BufRead *.cpp set syntax=cpp11
 runtime download/matchit.vim
 "XXX map <C-F12> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
@@ -27,7 +28,6 @@ if has("cscope")
   endif
   set csverb
 endif
-syntax enable
 colorscheme molokai_mjp
 set cindent shiftwidth=2
 set tabstop=2
