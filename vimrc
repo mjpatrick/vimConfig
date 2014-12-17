@@ -25,16 +25,16 @@ au BufNewFile,BufRead *.pro set syntax=qmake
 "Set clang library path
 let g:clang_library_path='/usr/lib64'
 
-function! CHANGE_CURR_DIR()
-	let _dir = expand("%:p:h")
-	if _dir !~ '^/tmp'
-		exec "cd " . _dir
-		exec "cd %:p:h"
-	endif
-	unlet _dir
-endfunction
-
-autocmd BufEnter * call CHANGE_CURR_DIR()
+" function! CHANGE_CURR_DIR()
+" 	let _dir = expand("%:p:h")
+" 	if _dir !~ '^/tmp'
+" 		exec "cd " . _dir
+" 		exec "cd %:p:h"
+" 	endif
+" 	unlet _dir
+" endfunction
+"
+" autocmd BufEnter * call CHANGE_CURR_DIR()
 
 set nocompatible                " want vim, not vi; must be first, because it changes other options
 
