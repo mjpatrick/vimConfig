@@ -78,3 +78,9 @@
 [submodule "bundle/qmake-syntax-vim"]
 	path = bundle/qmake-syntax-vim
 	url = https://github.com/artoj/qmake-syntax-vim.git
+[submodule "bundle/supertab"]
+	path = bundle/supertab
+	url = https://github.com/ervandew/supertab.git
+[submodule "bundle/snipmate.vim"]
+	path = bundle/snipmate.vim
+	url = https://github.com/msanders/snipmate.vim.git
