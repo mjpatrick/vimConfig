@@ -63,9 +63,6 @@
 [submodule "bundle/Cpp11-Syntax-Support"]
 	path = bundle/Cpp11-Syntax-Support
 	url = http://github.com/vim-scripts/Cpp11-Syntax-Support
-[submodule "bundle/easymotion"]
-	path = bundle/easymotion
-	url = git://github.com/haya14busa/vim-easymotion.git
 [submodule "bundle/mru"]
 	path = bundle/mru
 	url = http://github.com/yegappan/mru
