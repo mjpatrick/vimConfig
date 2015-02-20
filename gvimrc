@@ -1,3 +1,5 @@
+set vb t_vb=
+
 if has("gui_running")
   if has("gui_gtk2")
     "set guifont=Monospace\ 10
