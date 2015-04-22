@@ -67,3 +67,17 @@ Clean untracked files and folders
 
  to dry-run
  git clean -f -d -n or --dry-run
+
+-----------------------------------
+
+Merge myBranch to master
+ git checkout master
+ git merge myBranch
+
+Create local brnach and push it to remote branch
+ git checkout -b myBranch
+ git push origin myBranch
+
+Pull remote branch on other machine
+ git fetch
+ git checkout --track origin/myBranch
