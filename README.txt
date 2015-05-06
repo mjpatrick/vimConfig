@@ -81,3 +81,18 @@ Create local brnach and push it to remote branch
 Pull remote branch on other machine
  git fetch
  git checkout --track origin/myBranch
+
+-----------------------------------
+
+Tag repository:
+  git git tag -a v0.11 -m 'my tag comment'
+  git push --tags
+
+-----------------------------------
+
+Stash current modification:
+  git stash save "my stash comment"
+  git stash pop
+  git stash apply stash@{1}
+
+-----------------------------------
