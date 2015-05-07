@@ -73,6 +73,7 @@ Clean untracked files and folders
 Merge myBranch to master
  git checkout master
  git merge myBranch
+ git push origin master
 
 Create local brnach and push it to remote branch
  git checkout -b myBranch
