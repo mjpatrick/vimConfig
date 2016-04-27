@@ -85,3 +85,6 @@
 [submodule "bundle/vim-easymotion"]
 	path = bundle/vim-easymotion
 	url = https://github.com/Lokaltog/vim-easymotion.git
+[submodule "VHDL-indent-93-syntax"]
+	path = VHDL-indent-93-syntax
+	url = https://github.com/vim-scripts/VHDL-indent-93-syntax.git
