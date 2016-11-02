@@ -20,9 +20,6 @@
 [submodule "bundle/a"]
 	path = bundle/a
 	url = https://github.com/vim-scripts/a.vim.git
-[submodule "bundle/clang_complete"]
-	path = bundle/clang_complete
-	url = http://github.com/Rip-Rip/clang_complete
 [submodule "bundle/detectindent"]
 	path = bundle/detectindent
 	url = http://github.com/ciaranm/detectindent
@@ -88,3 +85,6 @@
 [submodule "vim-dispatch"]
 	path = vim-dispatch
 	url = https://github.com/tpope/vim-dispatch.git
+[submodule "clang-complete"]
+	path = clang-complete
+	url = https://github.com/myint/clang-complete.git
