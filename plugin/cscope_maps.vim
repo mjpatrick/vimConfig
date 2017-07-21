@@ -88,14 +88,14 @@ if has("cscope")
     " go back to where you were before the search.  
     "
 
-    nmap <C-]>s :cs find s <C-R>=expand("<cword>")<CR><CR>	
-    nmap <C-]>g :cs find g <C-R>=expand("<cword>")<CR><CR>	
-    nmap <C-]>c :cs find c <C-R>=expand("<cword>")<CR><CR>	
-    nmap <C-]>t :cs find t <C-R>=expand("<cword>")<CR><CR>	
-    nmap <C-]>e :cs find e <C-R>=expand("<cword>")<CR><CR>	
-    nmap <C-]>f :cs find f <C-R>=expand("<cfile>")<CR><CR>	
-    nmap <C-]>i :cs find i ^<C-R>=expand("<cfile>")<CR>$<CR>
-    nmap <C-]>d :cs find d <C-R>=expand("<cword>")<CR><CR>	
+    nmap <C-A>s :cs find s <C-R>=expand("<cword>")<CR><CR>
+    nmap <C-A>g :cs find g <C-R>=expand("<cword>")<CR><CR>
+    nmap <C-A>c :cs find c <C-R>=expand("<cword>")<CR><CR>
+    nmap <C-A>t :cs find t <C-R>=expand("<cword>")<CR><CR>
+    nmap <C-A>e :cs find e <C-R>=expand("<cword>")<CR><CR>
+    nmap <C-A>f :cs find f <C-R>=expand("<cfile>")<CR><CR>
+    nmap <C-A>i :cs find i ^<C-R>=expand("<cfile>")<CR>$<CR>
+    nmap <C-A>d :cs find d <C-R>=expand("<cword>")<CR><CR>
 
 
     " Using 'CTRL-spacebar' (intepreted as CTRL-@ by vim) then a search type
@@ -106,14 +106,14 @@ if has("cscope")
     " can be simulated roughly via:
     "    nmap <C-@>s <C-W><C-S> :cs find s <C-R>=expand("<cword>")<CR><CR>	
 
-    nmap <C-_>s :scs find s <C-R>=expand("<cword>")<CR><CR>	
-    nmap <C-_>g :scs find g <C-R>=expand("<cword>")<CR><CR>	
-    nmap <C-_>c :scs find c <C-R>=expand("<cword>")<CR><CR>	
-    nmap <C-_>t :scs find t <C-R>=expand("<cword>")<CR><CR>	
-    nmap <C-_>e :scs find e <C-R>=expand("<cword>")<CR><CR>	
-    nmap <C-_>f :scs find f <C-R>=expand("<cfile>")<CR><CR>	
-    nmap <C-_>i :scs find i ^<C-R>=expand("<cfile>")<CR>$<CR>	
-    nmap <C-_>d :scs find d <C-R>=expand("<cword>")<CR><CR>	
+    nmap <C-_>s :scs find s <C-R>=expand("<cword>")<CR><CR>
+    nmap <C-_>g :scs find g <C-R>=expand("<cword>")<CR><CR>
+    nmap <C-_>c :scs find c <C-R>=expand("<cword>")<CR><CR>
+    nmap <C-_>t :scs find t <C-R>=expand("<cword>")<CR><CR>
+    nmap <C-_>e :scs find e <C-R>=expand("<cword>")<CR><CR>
+    nmap <C-_>f :scs find f <C-R>=expand("<cfile>")<CR><CR>
+    nmap <C-_>i :scs find i ^<C-R>=expand("<cfile>")<CR>$<CR>
+    nmap <C-_>d :scs find d <C-R>=expand("<cword>")<CR><CR>
 
 
     " Hitting CTRL-space *twice* before the search type does a vertical 
@@ -127,8 +127,8 @@ if has("cscope")
     nmap <C-_><C-_>c :vert scs find c <C-R>=expand("<cword>")<CR><CR>
     nmap <C-_><C-_>t :vert scs find t <C-R>=expand("<cword>")<CR><CR>
     nmap <C-_><C-_>e :vert scs find e <C-R>=expand("<cword>")<CR><CR>
-    nmap <C-_><C-_>f :vert scs find f <C-R>=expand("<cfile>")<CR><CR>	
-    nmap <C-_><C-_>i :vert scs find i ^<C-R>=expand("<cfile>")<CR>$<CR>	
+    nmap <C-_><C-_>f :vert scs find f <C-R>=expand("<cfile>")<CR><CR>
+    nmap <C-_><C-_>i :vert scs find i ^<C-R>=expand("<cfile>")<CR>$<CR>
     nmap <C-_><C-_>d :vert scs find d <C-R>=expand("<cword>")<CR><CR>
 
 
