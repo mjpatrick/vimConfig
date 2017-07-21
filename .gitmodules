@@ -88,3 +88,6 @@
 [submodule "clang-complete"]
 	path = clang-complete
 	url = https://github.com/myint/clang-complete.git
+[submodule "MatlabFilesEdition"]
+	path = MatlabFilesEdition
+	url = https://github.com/vim-scripts/MatlabFilesEdition.git
