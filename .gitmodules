@@ -91,3 +91,6 @@
 [submodule "MatlabFilesEdition"]
 	path = MatlabFilesEdition
 	url = https://github.com/vim-scripts/MatlabFilesEdition.git
+[submodule "vim-lawrencium"]
+	path = vim-lawrencium
+	url = https://github.com/ludovicchabant/vim-lawrencium.git
