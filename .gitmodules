@@ -91,3 +91,6 @@
 [submodule "bundle/vim-dispatch"]
 	path = bundle/vim-dispatch
 	url = git://github.com/tpope/vim-dispatch.git
+[submodule "bundle/vim-lawrencium"]
+	path = bundle/vim-lawrencium
+	url = https://github.com/ludovicchabant/vim-lawrencium.git
