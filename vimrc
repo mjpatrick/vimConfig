@@ -30,7 +30,7 @@ let g:syntastic_cpp_compiler_options = ' -std=c++14'
 
 colorscheme molokai_mjp
 retab!
-au BufNewFile,BufRead *.cpp set syntax=cpp14
+au BufNewFile,BufRead *.cpp set syntax=cpp11
 au BufNewFile,BufRead *.pro set syntax=qmake
 
 function TagTitle()
