@@ -82,9 +82,11 @@
 [submodule "bundle/vim-lawrencium"]
 	path = bundle/vim-lawrencium
 	url = https://github.com/ludovicchabant/vim-lawrencium.git
+	ignore = dirty
 [submodule "bundle/MatlabFilesEdition"]
 	path = bundle/MatlabFilesEdition
 	url = https://github.com/vim-scripts/MatlabFilesEdition.git
+	ignore = dirty
 [submodule "bundle/vim-hdl"]
 	path = bundle/vim-hdl
 	url = https://github.com/suoto/vim-hdl.git
@@ -94,3 +96,4 @@
 [submodule "bundle/cscope.vim"]
 	path = bundle/cscope.vim
 	url = https://github.com/vim-scripts/cscope.vim.git
+	ignore = dirty
