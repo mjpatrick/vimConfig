@@ -91,3 +91,6 @@
 [submodule "bundle/vim-hdl"]
 	path = bundle/vim-hdl
 	url = https://github.com/suoto/vim-hdl.git
+[submodule "bundle/clang-complete"]
+	path = bundle/clang-complete
+	url = https://github.com/Rip-Rip/clang_complete.git
