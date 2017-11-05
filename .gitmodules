@@ -79,15 +79,9 @@
 [submodule "bundle/vim-easymotion"]
 	path = bundle/vim-easymotion
 	url = https://github.com/Lokaltog/vim-easymotion.git
-[submodule "VHDL-indent-93-syntax"]
-	path = VHDL-indent-93-syntax
-	url = https://github.com/vim-scripts/VHDL-indent-93-syntax.git
 [submodule "clang-complete"]
 	path = clang-complete
 	url = https://github.com/myint/clang-complete.git
-[submodule "MatlabFilesEdition"]
-	path = MatlabFilesEdition
-	url = https://github.com/vim-scripts/MatlabFilesEdition.git
 [submodule "bundle/MatlabFilesEdition.git"]
 	path = bundle/MatlabFilesEdition.git
 	url = https://github.com/vim-scripts/MatlabFilesEdition.git
