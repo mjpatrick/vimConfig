@@ -91,3 +91,6 @@
 [submodule "MatlabFilesEdition"]
 	path = MatlabFilesEdition
 	url = https://github.com/vim-scripts/MatlabFilesEdition.git
+[submodule "bundle/MatlabFilesEdition.git"]
+	path = bundle/MatlabFilesEdition.git
+	url = https://github.com/vim-scripts/MatlabFilesEdition.git
