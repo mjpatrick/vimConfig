@@ -82,3 +82,15 @@
 [submodule "clang-complete"]
 	path = clang-complete
 	url = https://github.com/myint/clang-complete.git
+[submodule "bundle/vim-dispatch"]
+	path = bundle/vim-dispatch
+	url = https://github.com/tpope/vim-dispatch.git
+[submodule "bundle/vim-lawrencium"]
+	path = bundle/vim-lawrencium
+	url = https://github.com/ludovicchabant/vim-lawrencium.git
+[submodule "bundle/MatlabFilesEdition"]
+	path = bundle/MatlabFilesEdition
+	url = https://github.com/vim-scripts/MatlabFilesEdition.git
+[submodule "bundle/vim-hdl"]
+	path = bundle/vim-hdl
+	url = https://github.com/suoto/vim-hdl.git
