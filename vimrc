@@ -22,7 +22,7 @@ let g:miniBufExplMapCTabSwitchBuffs = 1
 let g:miniBufExplModSelTarget = 1 
 
 "Set clang library path
-let g:clang_library_path='/usr/lib64'
+let g:clang_library_path='/usr/lib/llvm-3.6/lib'
 
 let &statusline="%f%< %y[%{&fileencoding}/%{&encoding}/%{&termencoding}][%{&fileformat}](%n)%m%r%w %a%=%b 0x%B  L:%l/%L, C:%-7(%c%V%) %P"
 
