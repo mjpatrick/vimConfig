@@ -106,3 +106,4 @@
 [submodule "bundle/vim-anyfold"]
 	path = bundle/vim-anyfold
 	url = https://github.com/pseewald/vim-anyfold.git
+	ignore = dirty
