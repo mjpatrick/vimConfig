@@ -103,3 +103,6 @@
 [submodule "bundle/vim-devicetree"]
 	path = bundle/vim-devicetree
 	url = https://github.com/martinlroth/vim-devicetree.git
+[submodule "bundle/vim-anyfold"]
+	path = bundle/vim-anyfold
+	url = https://github.com/pseewald/vim-anyfold.git
