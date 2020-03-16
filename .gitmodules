@@ -97,3 +97,9 @@
 	path = bundle/cscope.vim
 	url = https://github.com/vim-scripts/cscope.vim.git
 	ignore = dirty
+[submodule "vim-anyfold"]
+	path = vim-anyfold
+	url = https://github.com/pseewald/vim-anyfold.git
+[submodule "bundle/vim-anyfold"]
+	path = bundle/vim-anyfold
+	url = https://github.com/pseewald/vim-anyfold.git
