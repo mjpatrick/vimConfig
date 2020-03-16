@@ -103,3 +103,6 @@
 [submodule "bundle/vim-cmake-syntax"]
 	path = bundle/vim-cmake-syntax
 	url = git://github.com/pboettch/vim-cmake-syntax.git
+[submodule "bundle/vim-devicetree"]
+	path = bundle/vim-devicetree
+	url = https://github.com/martinlroth/vim-devicetree.git
