@@ -100,3 +100,6 @@
 [submodule "bundle/vim-anyfold"]
 	path = bundle/vim-anyfold
 	url = https://github.com/pseewald/vim-anyfold.git
+[submodule "bundle/vim-cmake-syntax"]
+	path = bundle/vim-cmake-syntax
+	url = git://github.com/pboettch/vim-cmake-syntax.git
