@@ -97,3 +97,7 @@ Stash current modification:
   git stash apply stash@{1}
 
 -----------------------------------
+
+Update submodules:
+  git submodule update --remote
+  git submodule update
