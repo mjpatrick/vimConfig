@@ -1,7 +1,7 @@
 set vb t_vb=
 
 if has("gui_running")
-  if has("gui_gtk2")
+  if has("gui_gtk3")
     set guifont=Monospace\ 10
     " set guifont=Envy\ Code\ R\ Bold\ 11
     " set guifont=DejaVu\ Sans\ Mono\ 10
