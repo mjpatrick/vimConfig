@@ -10,7 +10,7 @@ set vb t_vb=
 set number
 set hlsearch
 set statusline+=%F
-set set pdev=HP_PageWide_Pro_477dw_MFP_A57EFF_
+set pdev=HP_PageWide_Pro_477dw_MFP_A57EFF_
 "XXX map <C-F12> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 "
 let Tlist_Ctags_Cmd = '/usr/bin/ctags'
