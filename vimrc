@@ -2,7 +2,7 @@ call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 runtime! plugin/sensible.vim
 
-set nocompatible                " want vim, not vi; must be first, because it changes other options
+set nocompatible " want vim, not vi; must be first, because it changes other options
 set cindent shiftwidth=2
 set tabstop=2
 set expandtab
@@ -10,7 +10,7 @@ set vb t_vb=
 set number
 set hlsearch
 set statusline+=%F
-"set tags=/home/mpatrick/workspace/223_EMBEDDED/os/kernel/linux-2.6.21.1-leon23-1.0.6/tags
+set set pdev=HP_PageWide_Pro_477dw_MFP_A57EFF_
 "XXX map <C-F12> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 "
 let Tlist_Ctags_Cmd = '/usr/bin/ctags'
