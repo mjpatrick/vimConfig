@@ -107,3 +107,6 @@
 	path = bundle/vim-anyfold
 	url = https://github.com/pseewald/vim-anyfold.git
 	ignore = dirty
+[submodule "vim-cuda-syntax"]
+	path = vim-cuda-syntax
+	url = https://github.com/bfrg/vim-cuda-syntax.git
